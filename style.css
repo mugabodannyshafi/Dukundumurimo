@@ -1,0 +1,74 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.308),#0a6e39),url(img/7.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 77.4vh;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+form{
+    margin-left: 30%;
+    margin-top: 150px;
+    background-color: whitesmoke;
+    height:400px;
+    width:500px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border: 3px solid rgb(11, 44, 87);
+}
+
+form label{
+    color:rgb(11, 44, 87);
+    font-weight:bold;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:40px;
+    text-align:center;
+    margin-left:130px;
+    margin-top: 40px
+    
+}
+
+form input{
+    background-color:transparent;
+    border: none;
+    outline: none;
+    text-align: center;
+    border-bottom: 2px solid rgb(11, 44, 87);
+    width: 400px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.877);
+    height: 50px;
+    margin-left: 50px;
+    margin-top: 20px
+}
+
+form button{
+    background-color: rgb(11, 44, 87);
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    width: 100px;
+    height: 40px;
+    margin-left: 150px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    color: white;
+}
+form a{
+    margin-left: 50px;
+    font-size: 17px;
+    font-weight: bold;
+    color: rgb(11, 44, 87);
+}
